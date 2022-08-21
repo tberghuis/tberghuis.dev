@@ -2,3 +2,4 @@ find examples to copy from
 add tailwind search "tailwind react next.js"
 
 udemy nextjs course max
+https://www.udemy.com/course/nextjs-react-the-complete-guide/
