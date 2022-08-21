@@ -1,4 +1,4 @@
 find examples to copy from
-add tailwind
+add tailwind search "tailwind react next.js"
 
 udemy nextjs course max
