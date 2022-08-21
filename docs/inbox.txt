@@ -1,0 +1,4 @@
+find examples to copy from
+add tailwind
+
+udemy nextjs course

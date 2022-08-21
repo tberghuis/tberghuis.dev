@@ -11,6 +11,7 @@ cd out
 
 # if you are deploying to a custom domain
 echo 'tberghuis.dev' > CNAME
+touch .nojekyll
 
 git init
 git checkout -b main
