@@ -2,6 +2,16 @@ import Head from "next/head";
 
 import styles from "../styles/Home.module.css";
 
+import github from "super-tiny-icons/images/svg/github.svg";
+import stackoverflow from "super-tiny-icons/images/svg/stackoverflow.svg";
+import twitter from "super-tiny-icons/images/svg/twitter.svg";
+import email from "super-tiny-icons/images/svg/email.svg";
+import upwork from "super-tiny-icons/images/svg/upwork.svg";
+import google_play from "super-tiny-icons/images/svg/google_play.svg";
+import reddit from "super-tiny-icons/images/svg/reddit.svg";
+
+console.log("github", github);
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -13,21 +23,59 @@ export default function Home() {
 
       <main className={styles.main}>
         <p>Thomas Berghuis</p>
-        <p>
-          <a href="https://github.com/tberghuis">github</a>
-          <a href="https://stackoverflow.com/users/95482/tom-berghuis?tab=profile">
-            StackOverflow
-          </a>
-          <a href="https://twitter.com/tom_berghuis">twitter</a>
-          <a href="mailto:thomas.berghuis@gmail.com">email</a>
-          <a href="https://www.upwork.com/freelancers/~0117ef9bb9b128ae1d">
-            upwork
-          </a>
-          <a href="https://play.google.com/store/apps/developer?id=Thomas+Berghuis">
-            play store
-          </a>
+        <p className={styles.social}>
+          <SocialLink
+            name="github"
+            href="https://github.com/tberghuis"
+            src={github.src}
+          ></SocialLink>
+
+          <SocialLink
+            name="stackoverflow"
+            href="https://stackoverflow.com/users/95482/tom-berghuis?tab=profile"
+            src={stackoverflow.src}
+          ></SocialLink>
+
+          <SocialLink
+            name="twitter"
+            href="https://twitter.com/tom_berghuis"
+            src={twitter.src}
+          ></SocialLink>
+
+          <SocialLink
+            name="email"
+            href="mailto:thomas.berghuis@gmail.com"
+            src={email.src}
+          ></SocialLink>
+
+          <SocialLink
+            name="upwork"
+            href="https://www.upwork.com/freelancers/~0117ef9bb9b128ae1d"
+            src={upwork.src}
+          ></SocialLink>
+
+          <SocialLink
+            name="google_play"
+            href="https://play.google.com/store/apps/developer?id=Thomas+Berghuis"
+            src={google_play.src}
+          ></SocialLink>
+
+          <SocialLink
+            name="reddit"
+            href="https://www.reddit.com/user/tberghuis/"
+            src={reddit.src}
+          ></SocialLink>
         </p>
       </main>
     </div>
+  );
+}
+
+// todo name alt
+function SocialLink({ name, href, src }) {
+  return (
+    <a target="_blank" rel="noreferrer" href={href}>
+      <img src={src} />
+    </a>
   );
 }
