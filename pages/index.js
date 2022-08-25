@@ -31,7 +31,7 @@ export default function Home() {
           ></SocialLink>
 
           <SocialLink
-            name="stackoverflow"
+            name="stack overflow"
             href="https://stackoverflow.com/users/95482/tom-berghuis?tab=profile"
             src={stackoverflow.src}
           ></SocialLink>
@@ -55,7 +55,7 @@ export default function Home() {
           ></SocialLink>
 
           <SocialLink
-            name="google_play"
+            name="google play"
             href="https://play.google.com/store/apps/developer?id=Thomas+Berghuis"
             src={google_play.src}
           ></SocialLink>
@@ -75,7 +75,7 @@ export default function Home() {
 function SocialLink({ name, href, src }) {
   return (
     <a target="_blank" rel="noreferrer" href={href}>
-      <img src={src} />
+      <img src={src} alt={name} />
     </a>
   );
 }
