@@ -8,3 +8,6 @@ https://www.udemy.com/course/nextjs-react-the-complete-guide/
 copy https://github.com/Yazan98/portfolio
 https://www.yazantarifi.com/#/
 
+fix ui homescreen
+  center
+  background gradient, copy color yazantarifi.com
