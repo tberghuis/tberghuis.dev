@@ -7,3 +7,4 @@ copy https://github.com/Yazan98/portfolio
 https://www.yazantarifi.com/#/
 
 favicon
+  TB
