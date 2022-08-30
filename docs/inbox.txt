@@ -8,3 +8,6 @@ https://www.yazantarifi.com/#/
 
 favicon
   TB
+
+https://nextjs.org/docs/messages/no-img-element
+  use <picture><source><img>
