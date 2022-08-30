@@ -1,5 +1,5 @@
 import Head from "next/head";
-
+// import ctl from "@netlify/classnames-template-literals";
 import styles from "../styles/Home.module.css";
 
 import github from "super-tiny-icons/images/svg/github.svg";
@@ -21,8 +21,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <p>Thomas Berghuis</p>
+      <main className="flex flex-col justify-center h-screen text-center">
+        <p className="mb-[10px]">Thomas Berghuis</p>
         <p className={styles.social}>
           <SocialLink
             name="github"
