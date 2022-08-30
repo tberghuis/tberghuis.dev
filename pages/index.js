@@ -22,7 +22,7 @@ export default function Home() {
       </Head>
 
       <main className="flex flex-col justify-center h-screen text-center">
-        <p className="mb-[10px]">Thomas Berghuis</p>
+        <p className="mb-[10px] text-2xl font-medium">Thomas Berghuis</p>
         <p className={styles.social}>
           <SocialLink
             name="github"
