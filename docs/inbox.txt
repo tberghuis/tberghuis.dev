@@ -12,3 +12,5 @@ favicon
 https://nextjs.org/docs/messages/no-img-element
   use <picture><source><img>
 
+better font for "Thomas Berghuis"
+  css tricks fonts tech
