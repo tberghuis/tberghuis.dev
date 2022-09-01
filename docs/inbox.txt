@@ -12,4 +12,3 @@ favicon
 https://nextjs.org/docs/messages/no-img-element
   use <picture><source><img>
 
-add shadows to SocialLinks
