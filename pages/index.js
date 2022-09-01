@@ -81,7 +81,7 @@ export default function Home() {
 function SocialLink({ name, href, src }) {
   return (
     <a target="_blank" rel="noreferrer" href={href}>
-      <img src={src} alt={name} />
+      <img className={styles.dropShadow} src={src} alt={name} />
     </a>
   );
 }
